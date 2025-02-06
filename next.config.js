@@ -22,6 +22,7 @@
     /** @type {import('next').NextConfig} */
     const nextConfig = {
         output: 'export',
+        basePath: '/HunterScan',
         distDir: 'dist',
         images: {unoptimized: true,},
         // Add other configurations if necessary.
