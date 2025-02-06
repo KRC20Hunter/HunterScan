@@ -1,4 +1,4 @@
-export type Announcement = {
+export type AnnouncementType = {
     id: number
     title: string
     text?: string
