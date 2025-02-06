@@ -1,4 +1,5 @@
 {
+  "homepage": "https://krc20hunter.github.io/hunterscan",
   "name": "katscan",
   "version": "0.1.0",
   "private": true,
@@ -21,8 +22,6 @@
     "chart.js": "^4.4.4",
     "lodash": "^4.17.21",
     "nacho-component-library": "github:argonmining/nacho-component-library",
-    "next": "^15.1.6",
-    "next-transpile-modules": "^10.0.1",
     "prop-types": "^15.8.1",
     "qrcode.react": "^4.2.0",
     "react": "^18.3.1",
@@ -47,6 +46,8 @@
   },
   "scripts": {
     "start": "craco start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject",
@@ -72,6 +73,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-react-hooks": "^4.2.0"
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "gh-pages": "^6.3.0"
   }
 }
