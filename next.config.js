@@ -19,8 +19,11 @@
 
     const withTM = require('next-transpile-modules')(['nacho-component-library']);
 
-    const nextConfig = withTM({
+    /** @type {import('next').NextConfig} */
+    const nextConfig = {
         output: 'export',
-    });
+        // Add other configurations if necessary.
+    };
 
-    module.exports = nextConfig;
+    module.exports = withTM(nextConfig);
+
