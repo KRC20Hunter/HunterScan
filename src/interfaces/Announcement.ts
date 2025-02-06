@@ -1,4 +1,4 @@
-type Announcement = {
+export type Announcement = {
     id: number
     title: string
     text?: string
@@ -6,5 +6,3 @@ type Announcement = {
     imageurl?: string
     link?: string
 }
-
-export {}
