@@ -24,4 +24,4 @@ yarn-debug.log*
 yarn-error.log*
 
 backendapi.yaml
-package-lock.json
+# package-lock.json
