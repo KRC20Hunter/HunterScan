@@ -5,10 +5,9 @@ import {Image, useDarkMode} from "nacho-component-library";
 import {katscanStaticUrl} from "../../utils/StaticVariables";
 import './Announcements.css'
 import {openLink} from "../../services/Helper";
-import { AnnouncementType } from "src/interfaces/Announcement";
 
 type Props = {
-    announcement?: AnnouncementType
+    announcement?: Announcement
     onClose?: () => void
 }
 export const Announcements: FC<Props> = (
@@ -20,8 +19,8 @@ export const Announcements: FC<Props> = (
     const {isDarkMode} = useDarkMode()
     const [show, setShow] = useState(false)
     const [internalIds, setInternalIds] = useState<number[]>([])
-    const [internalData, setInternalData] = useState<AnnouncementType[] | undefined>()
-    const {data} = useFetch<AnnouncementType[]>({
+    const [internalData, setInternalData] = useState<Announcement[] | undefined>()
+    const {data} = useFetch<Announcement[]>({
         url: '/announcements',
         avoidLoading: announcement !== undefined
     })
@@ -81,7 +80,7 @@ export const Announcements: FC<Props> = (
 }
 
 
-const Announcement: FC<AnnouncementType> = (
+const Announcement: FC<Announcement> = (
     {
         title,
         text,

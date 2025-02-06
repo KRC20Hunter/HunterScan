@@ -3,15 +3,14 @@ import {useFetch} from "../hooks/useFetch";
 import {List, Page} from "nacho-component-library";
 import {Announcements} from "../components/announcements/Announcements";
 import 'styles/AnnouncementsPage.css'
-import { AnnouncementType } from "src/interfaces/Announcement";
 
 const sort: [string, "desc" | "asc"] = ['timestamp', 'desc']
 const header = ['title', 'timestamp']
 
 const AnnouncementsPage: FC = () => {
 
-    const [announcement, setAnnouncement] = useState<AnnouncementType>()
-    const {data, loading} = useFetch<AnnouncementType[]>({
+    const [announcement, setAnnouncement] = useState<Announcement>()
+    const {data, loading} = useFetch<Announcement[]>({
         url: '/announcements/all',
         sort: sort
     })
