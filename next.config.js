@@ -1,6 +1,7 @@
 /**
  * @type {import('next').NextConfig}
  */
+const withTM = require('next-transpile-modules')(['nacho-component-library']);
 const nextConfig = {
     output: 'export',
    
@@ -13,6 +14,7 @@ const nextConfig = {
     // Optional: Change the output directory `out` -> `dist`
     // distDir: 'dist',
     // images: {unoptimized: true,},
+
   }
-   
+
   module.exports = nextConfig
