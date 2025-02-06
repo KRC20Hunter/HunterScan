@@ -3,6 +3,7 @@ import {useFetch} from "../hooks/useFetch";
 import {List, Page} from "nacho-component-library";
 import {Announcements} from "../components/announcements/Announcements";
 import 'styles/AnnouncementsPage.css'
+import { Announcement } from "src/interfaces/Announcement";
 
 const sort: [string, "desc" | "asc"] = ['timestamp', 'desc']
 const header = ['title', 'timestamp']
