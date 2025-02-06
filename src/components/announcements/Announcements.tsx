@@ -5,6 +5,7 @@ import {Image, useDarkMode} from "nacho-component-library";
 import {katscanStaticUrl} from "../../utils/StaticVariables";
 import './Announcements.css'
 import {openLink} from "../../services/Helper";
+import { Announcement } from "src/interfaces/Announcement";
 
 type Props = {
     announcement?: Announcement
