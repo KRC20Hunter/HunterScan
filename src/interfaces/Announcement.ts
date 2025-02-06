@@ -6,3 +6,5 @@ type Announcement = {
     imageurl?: string
     link?: string
 }
+
+export {}
