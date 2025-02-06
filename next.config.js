@@ -11,8 +11,8 @@ const nextConfig = {
     // skipTrailingSlashRedirect: true,
    
     // Optional: Change the output directory `out` -> `dist`
-    distDir: 'dist',
-    images: {unoptimized: true,},
+    // distDir: 'dist',
+    // images: {unoptimized: true,},
   }
    
   module.exports = nextConfig
