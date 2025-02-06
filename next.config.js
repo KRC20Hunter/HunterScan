@@ -17,18 +17,10 @@
 
 //   }
 
-
-  const withTM = require('next-transpile-modules')(['nacho-component-library']);
+    const withTM = require('next-transpile-modules')(['nacho-component-library']);
 
     const nextConfig = withTM({
         output: 'export',
-        webpack: (config) => {
-            config.module.rules.push({
-                test: /\.css$/,
-                use: ['style-loader', 'css-loader'],
-            });
-            return config;
-        },
     });
 
     module.exports = nextConfig;
