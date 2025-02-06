@@ -1,0 +1,8 @@
+
+.holder-distribution {
+    height: 100%;
+    overflow-x: auto;
+    .div-chart {
+        height: 100%;
+    }
+}
