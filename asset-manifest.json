@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HunterScan/static/css/main.08efea7b.css",
-    "main.js": "/HunterScan/static/js/main.bc1ff522.js",
+    "main.js": "/HunterScan/static/js/main.17c9368d.js",
     "static/css/856.09fe4b0f.chunk.css": "/HunterScan/static/css/856.09fe4b0f.chunk.css",
     "static/js/856.5dd5b3ed.chunk.js": "/HunterScan/static/js/856.5dd5b3ed.chunk.js",
     "static/css/174.059e50be.chunk.css": "/HunterScan/static/css/174.059e50be.chunk.css",
@@ -36,7 +36,7 @@
     "static/media/devQr.png": "/HunterScan/static/media/devQr.6a317d2fea476b3ae96f.png",
     "index.html": "/HunterScan/index.html",
     "main.08efea7b.css.map": "/HunterScan/static/css/main.08efea7b.css.map",
-    "main.bc1ff522.js.map": "/HunterScan/static/js/main.bc1ff522.js.map",
+    "main.17c9368d.js.map": "/HunterScan/static/js/main.17c9368d.js.map",
     "856.09fe4b0f.chunk.css.map": "/HunterScan/static/css/856.09fe4b0f.chunk.css.map",
     "856.5dd5b3ed.chunk.js.map": "/HunterScan/static/js/856.5dd5b3ed.chunk.js.map",
     "174.059e50be.chunk.css.map": "/HunterScan/static/css/174.059e50be.chunk.css.map",
@@ -66,6 +66,6 @@
   },
   "entrypoints": [
     "static/css/main.08efea7b.css",
-    "static/js/main.bc1ff522.js"
+    "static/js/main.17c9368d.js"
   ]
 }
