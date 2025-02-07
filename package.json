@@ -1,7 +1,7 @@
 {
   "name": "katscan",
   "version": "0.1.0",
-  "homepage": "https://krc20hunter/github.io/HunterScan",
+  "homepage": "https://krc20hunter.github.io/HunterScan",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
