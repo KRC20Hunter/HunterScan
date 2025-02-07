@@ -29,7 +29,7 @@ const App: FC = () => {
     const styling = usePageResize(elementRef, 'mainContent')
 
     return (
-        <Router>
+        <Router basename="/HunterScan">
             <div className="App">
                 <div id={'portal-container'}/>
                 <ThemeToggle />
