@@ -50,7 +50,7 @@ export const SubscriptionProvider: FC<PropsWithChildren> = ({children}) => {
     })
 
     useEffect(() => {
-        const socket = new SockJS(`${katscanBaseUrl}/ws`);
+        const socket = new SockJS(`${katscanBaseUrl}/wss`);
         stompClient.current = new Client({
             webSocketFactory: () => socket,
             reconnectDelay: 2000,
